@@ -65,15 +65,8 @@ export const Messages: React.FC = () => {
     }, 10000);
   };
 
-  // useEffect(() => {
-  //   refScroll.current;
-  // }, []);
-
   useEffect(() => {
     if (refScroll) {
-      // window.scrollTo(0, refScroll.current.offsetTop);
-      // refScroll.current?.scrollTo(0, refScroll.current.offsetTop);
-      // const h = refScroll.current?.scrollHeight;
       refScroll.current?.scrollTo(0, refScroll.current?.scrollHeight);
     }
   });

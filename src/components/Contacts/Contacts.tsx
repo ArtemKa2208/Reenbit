@@ -13,9 +13,6 @@ export const Contacts: React.FC = () => {
   const messages = useSelector(getMessagesSelector);
   const search = useSelector(getSearchSelector);
 
-  // eslint-disable-next-line no-console
-  console.log(search);
-
   useEffect(() => {
     const loadDataFromServer = async () => {
       const responseChats = await getChats();
@@ -59,9 +56,6 @@ export const Contacts: React.FC = () => {
   const filteredChats = chats.filter((chat) => {
     return chat.name.toLowerCase().includes(search.toLowerCase());
   });
-
-  // eslint-disable-next-line no-console
-  console.log('ok');
 
   return (
     <div className="chats">

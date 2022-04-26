@@ -1,5 +1,4 @@
 .chats {
-  //width: 25%;
   height: 80%;
   overflow-y: auto;
   &__title {
@@ -7,10 +6,6 @@
     font-size: 22px;
     color: #00e1ff;
   }
-
-  //&__chat {
-  //  margin-top: 10px;
-  //}
 }
 
 .chat {
