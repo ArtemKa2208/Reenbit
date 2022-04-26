@@ -1,0 +1,306 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "name": "Roma",
+      "photo": "./images/man.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nikita",
+      "photo": "./images/nikita.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Veronika",
+      "photo": "./images/veronika.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Юля",
+      "photo": "./images/julia.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dima",
+      "photo": "./images/man.jpg"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "body": "text",
+      "date": "01.01.01",
+      "time": "18:30",
+      "fullDate": 1650824552727,
+      "direction": "to_me",
+      "chatId": 1
+    },
+    {
+      "id": 2,
+      "body": "text 123",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 1
+    },
+    {
+      "id": 3,
+      "body": "Hi",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "from_me",
+      "chatId": 3
+    },
+    {
+      "id": 4,
+      "body": "Love you",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 3
+    },
+    {
+      "id": 5,
+      "body": "Товарищи! консультация с широким активом влечет за собой процесс внедрения и модернизации форм развития. Таким образом новая модель организационной деятельности требуют от нас анализа систем массового участия.",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "from_me",
+      "chatId": 3
+    },
+    {
+      "id": 6,
+      "body": "Задача организации, в особенности же дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. Идейные соображения высшего порядка, а также реализация намеченных плановых заданий играет важную роль в формировании существенных финансовых и административных условий.",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 3
+    },
+    {
+      "id": 7,
+      "body": "Не следует, однако забывать, что сложившаяся структура организации влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий. Идейные соображения высшего порядка, а также сложившаяся структура организации в значительной степени обуславливает создание существенных финансовых и административных условий. Задача организации, в особенности же рамки и место обучения кадров способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. С другой стороны рамки и место обучения кадров способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "from_me",
+      "chatId": 3
+    },
+    {
+      "id": 8,
+      "body": "Hello",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 3
+    },
+    {
+      "id": 9,
+      "body": "Tema lox",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 3
+    },
+    {
+      "id": 10,
+      "body": "Привет",
+      "date": "01.01.01",
+      "time": "18:30",
+      "direction": "to_me",
+      "chatId": 2
+    },
+    {
+      "body": "wow",
+      "date": "4/24/22",
+      "time": "2:38 PM",
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 11
+    },
+    {
+      "body": "hey",
+      "date": "4/24/22",
+      "time": "2:52 PM",
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 12
+    },
+    {
+      "body": "hello",
+      "date": "4/24/22",
+      "time": "2:57 PM",
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 13
+    },
+    {
+      "body": "Привет",
+      "date": "4/24/22",
+      "time": "3:34 PM",
+      "direction": "from_me",
+      "chatId": 2,
+      "id": 14
+    },
+    {
+      "body": "Hey",
+      "date": "4/24/22",
+      "time": "3:49 PM",
+      "direction": "from_me",
+      "chatId": 1,
+      "id": 15
+    },
+    {
+      "body": "jesus once walked on water;Chuck Norris once swam on land",
+      "date": "4/24/22",
+      "time": "3:49 PM",
+      "direction": "to_me",
+      "chatId": 1,
+      "id": 16
+    },
+    {
+      "body": "HEEEEEEYYYY",
+      "date": "4/24/22",
+      "time": "3:50 PM",
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 17
+    },
+    {
+      "body": "hI",
+      "date": "4/24/22",
+      "time": "3:50 PM",
+      "direction": "from_me",
+      "chatId": 2,
+      "id": 18
+    },
+    {
+      "body": "Kyle Reese said the Terminator was unstoppable. He should have seen Chuck Norris before saying that.",
+      "date": "4/24/22",
+      "time": "3:50 PM",
+      "direction": "to_me",
+      "chatId": 3,
+      "id": 19
+    },
+    {
+      "body": "The mere sight/smell of Chuck Norris' back hair can make a woman haemorrage orgasms.",
+      "date": "4/24/22",
+      "time": "3:50 PM",
+      "direction": "to_me",
+      "chatId": 2,
+      "id": 20
+    },
+    {
+      "body": "Hey yoy",
+      "date": "4/24/22",
+      "time": "8:54 PM",
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 21
+    },
+    {
+      "body": "Chuck Norris is currently suing myspace for taking the name of what he calls everything around you.",
+      "date": "4/24/22",
+      "time": "8:54 PM",
+      "direction": "to_me",
+      "chatId": 3,
+      "id": 22
+    },
+    {
+      "body": "Hey yoy",
+      "date": "4/24/22",
+      "time": "8:56 PM",
+      "direction": "from_me",
+      "chatId": 4,
+      "id": 23
+    },
+    {
+      "body": "",
+      "date": "4/25/22",
+      "time": "6:19 PM",
+      "fullDate": 1650899970185,
+      "direction": "from_me",
+      "chatId": 1,
+      "id": 24
+    },
+    {
+      "body": "",
+      "date": "4/25/22",
+      "time": "6:19 PM",
+      "fullDate": 1650899972246,
+      "direction": "from_me",
+      "chatId": 1,
+      "id": 25
+    },
+    {
+      "body": "Don King's hair is that way because he is the only person to survive a massive Chuck Norris fart directly to the face",
+      "date": "4/25/22",
+      "time": "6:19 PM",
+      "fullDate": 1650899981004,
+      "direction": "to_me",
+      "chatId": 1,
+      "id": 26
+    },
+    {
+      "body": "Chuck Norris can slice through a katana blade with a loaf of french bread.",
+      "date": "4/25/22",
+      "time": "6:19 PM",
+      "fullDate": 1650899982423,
+      "direction": "to_me",
+      "chatId": 1,
+      "id": 27
+    },
+    {
+      "body": "Hola",
+      "date": "4/25/22",
+      "time": "7:40 PM",
+      "fullDate": 1650904800864,
+      "direction": "from_me",
+      "chatId": 4,
+      "id": 28
+    },
+    {
+      "body": "A bird in the hand is worth two in the tree. Chuck Norris is worth six hundred and sixty-six trillion dollars and the Budweiser brewery.",
+      "date": "4/25/22",
+      "time": "7:40 PM",
+      "fullDate": 1650904811538,
+      "direction": "to_me",
+      "chatId": 4,
+      "id": 29
+    },
+    {
+      "body": "Hi",
+      "date": "4/26/22",
+      "time": "6:42 PM",
+      "fullDate": 1650987723428,
+      "direction": "from_me",
+      "chatId": 3,
+      "id": 30
+    },
+    {
+      "body": "It should go without saying Chuck Norris leaves a trail of vanquished supermodels in his wake wherever he goes.",
+      "date": "4/26/22",
+      "time": "6:42 PM",
+      "fullDate": 1650987734647,
+      "direction": "to_me",
+      "chatId": 3,
+      "id": 31
+    },
+    {
+      "body": "Hey",
+      "date": "4/26/22",
+      "time": "7:17 PM",
+      "fullDate": 1650989869577,
+      "direction": "from_me",
+      "chatId": 1,
+      "id": 32
+    },
+    {
+      "body": "Chuck Norris once performed a vasectomy on a gorilla while it was masterbating over a female in estrous.",
+      "date": "4/26/22",
+      "time": "7:18 PM",
+      "fullDate": 1650989880302,
+      "direction": "to_me",
+      "chatId": 1,
+      "id": 33
+    }
+  ]
+}

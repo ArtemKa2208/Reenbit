@@ -1,27 +1,18 @@
 import React from 'react';
+import './reset.scss';
 import './App.scss';
-
-interface Props {
-  onClick: () => void;
-}
-
-export const Provider: React.FC<Props> = React.memo(
-  ({ onClick, children }) => (
-    <button
-      type="button"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  ),
-);
+import { Contacts } from './components/Contacts/Contacts';
+import { Search } from './components/Search/Search';
+import { Messages } from './components/Messages/Messages';
 
 export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>
-        <TodoList />
-      </Provider>
+    <div className="app">
+      <div className="app__sidebar">
+        <Search />
+        <Contacts />
+      </div>
+      <Messages />
     </div>
   );
 };
