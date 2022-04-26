@@ -24,6 +24,11 @@
       "id": 5,
       "name": "Dima",
       "photo": "./images/man.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Igor",
+      "photo": "./images/man.jpg"
     }
   ],
   "messages": [
@@ -87,14 +92,6 @@
     {
       "id": 8,
       "body": "Hello",
-      "date": "01.01.01",
-      "time": "18:30",
-      "direction": "to_me",
-      "chatId": 3
-    },
-    {
-      "id": 9,
-      "body": "Tema lox",
       "date": "01.01.01",
       "time": "18:30",
       "direction": "to_me",
