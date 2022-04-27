@@ -316,6 +316,42 @@
       "direction": "to_me",
       "chatId": 3,
       "id": 35
+    },
+    {
+      "body": "Hello",
+      "date": "4/26/22",
+      "time": "10:17 PM",
+      "fullDate": 1651000670122,
+      "direction": "from_me",
+      "chatId": 6,
+      "id": 36
+    },
+    {
+      "body": "Santa actually gives everyone presents. It's just that Chuck Norris pounds some of them into coal.",
+      "date": "4/26/22",
+      "time": "10:18 PM",
+      "fullDate": 1651000680719,
+      "direction": "to_me",
+      "chatId": 6,
+      "id": 37
+    },
+    {
+      "body": "Joke",
+      "date": "4/27/22",
+      "time": "10:36 AM",
+      "fullDate": 1651044969628,
+      "direction": "from_me",
+      "chatId": 4,
+      "id": 38
+    },
+    {
+      "body": "The rock band Stone Temple Pilots got their name after they witnessed Chuck Norris cruising around in an Aztec shrine on the streets of L.A.",
+      "date": "4/27/22",
+      "time": "10:36 AM",
+      "fullDate": 1651044980571,
+      "direction": "to_me",
+      "chatId": 4,
+      "id": 39
     }
   ]
 }
