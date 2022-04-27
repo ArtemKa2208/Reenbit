@@ -44,7 +44,10 @@ export const Messages: React.FC = () => {
     setCurrentInput('');
     // const responseMessages = await getMessages();
 
-    dispatch(loadMessagesAction([...messages, newMessage]));
+    dispatch(loadMessagesAction([newMessage]));
+
+    // eslint-disable-next-line no-console
+    console.log(messages);
 
     setTimeout(async () => {
       const response = await getMessageFromChuck();
@@ -61,7 +64,7 @@ export const Messages: React.FC = () => {
       // await addMessage(chuckMessage);
       // const responseFromChuck = await getMessages();
 
-      dispatch(loadMessagesAction([...messages, chuckMessage]));
+      dispatch(loadMessagesAction([chuckMessage]));
     }, 10000);
   };
 

@@ -30,7 +30,7 @@ const rootReducer = (state = initialState, action: AnyAction) => {
     case LOAD_MESSAGES:
       return {
         ...state,
-        messages: [...action.payload],
+        messages: [...state.messages, ...action.payload],
       };
     case SET_SEARCH:
       return {
