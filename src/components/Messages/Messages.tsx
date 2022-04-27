@@ -40,11 +40,11 @@ export const Messages: React.FC = () => {
       chatId,
     };
 
-    await addMessage(newMessage);
+    // await addMessage(newMessage);
     setCurrentInput('');
-    const responseMessages = await getMessages();
+    // const responseMessages = await getMessages();
 
-    dispatch(loadMessagesAction(responseMessages));
+    dispatch(loadMessagesAction([...messages, newMessage]));
 
     setTimeout(async () => {
       const response = await getMessageFromChuck();
@@ -58,10 +58,10 @@ export const Messages: React.FC = () => {
         chatId,
       };
 
-      await addMessage(chuckMessage);
-      const responseFromChuck = await getMessages();
+      // await addMessage(chuckMessage);
+      // const responseFromChuck = await getMessages();
 
-      dispatch(loadMessagesAction(responseFromChuck));
+      dispatch(loadMessagesAction([...messages, chuckMessage]));
     }, 10000);
   };
 
