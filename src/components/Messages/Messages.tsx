@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { getChatsSelector, getMessagesSelector, getSelectedChatIdSelector } from '../../store/selectors';
 import { MessageFromMe } from '../MessageFromMe/MessageFromMe';
 import { MessageToMe } from '../MessageToMe/MessageToMe';
-import { addMessage, getMessageFromChuck, getMessages } from '../../api/message';
+import { getMessageFromChuck } from '../../api/message';
 import { loadMessagesAction } from '../../store/actions';
 
 export const Messages: React.FC = () => {
